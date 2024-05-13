@@ -1,3 +1,3 @@
-# Dominant-Colour-Extraction
+# Dominant Colour Extraction
 
-## Deployment Link: [Dominant Color Extraction](https://dominant-colour-extraction.onrender.com/)
+Deployment Link: [Dominant Color Extraction](https://dominant-colour-extraction.onrender.com/)
