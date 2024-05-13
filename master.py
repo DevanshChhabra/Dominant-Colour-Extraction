@@ -45,8 +45,8 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.title("Dominant Color Extraction")
-st.markdown("<p class='subheader'>Upload an image and select the number of colors to extract</p>", unsafe_allow_html=True)
+st.title("Dominant Colour Extraction")
+st.markdown("<p class='subheader'>Upload an image and select the number of colours to extract</p>", unsafe_allow_html=True)
 
 img = st.file_uploader('Choose an image')
 
@@ -54,7 +54,7 @@ if img is not None:
     st.markdown("<h2 class='header'>Original Image</h2>", unsafe_allow_html=True)
     st.image(img)
 
-    x = st.slider('Pick number of colors', 1, 10)
+    x = st.slider('Pick number of colours', 1, 10)
 
     # Read and resize the image
     input_img = Image.open(img)
