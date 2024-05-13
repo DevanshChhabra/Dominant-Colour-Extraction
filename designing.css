@@ -1,0 +1,43 @@
+div.css-1n76uvr.e1f1d6gn0, small.css-1aehpvj.e1bju1570, p, div.uploadedFile.css-12xsiil.e1b2p2ww5, span.css-9ycgxx.e1b2p2ww12 {
+    color: white;
+}
+
+div.appview-container.css-1wrcr25.ea3mdgi6 {
+    background-color: rgb(5, 1, 21);
+    background-size: cover;
+}
+
+section.css-1gulkj5.e1b2p2ww15 {
+    background-color: rgb(5, 1, 21);
+}
+
+header.css-18ni7ap.ezrtsby2 {
+    background-color:rgb(5, 1, 21);
+}
+
+span.css-10trblm.e1nzilvr0 {
+    background: linear-gradient(to right, rgb(67,124,205), rgb(69,214,202));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: white;
+    animation: fade 1s ease-in forwards; 
+    pointer-events: none;
+}
+
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+div.css-zt5igj.e1nzilvr3 {
+    font-size: 48px; 
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+}
